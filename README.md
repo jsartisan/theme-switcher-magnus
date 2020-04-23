@@ -133,7 +133,7 @@ export default function ThemeSwitcher() {
 
 Div and Text are components that are provided by Magnus. Notice how easily we are setting background color of Div component by using bg prop. This is being done by Magnus internally. Magnus is transforming our theme values and applying them to these components 'style.
 
-![Simulator Screen Shot - iPhone 11 - 2020-04-22 at 13.20.49|231x500](upload://40rabPV3Wpv7VnUcFAxmqsJhPBb.png) 
+![Simulator Screen Shot - iPhone 11 - 2020-04-22 at 13.20.49|231x500](https://github.com/jsartisan/theme-switcher-magnus/blob/master/demo/1.png?raw=true) 
 
 Now we need to change our theme when the user presses the toggle button.
 As i previously said, ThemeProvider is basically using ContextAPI. Magnus also exposes the ThemeContext if we ever need to change the theme or need the current theme values.
@@ -168,7 +168,7 @@ export default function ThemeSwitcher() {
 }
 ```
 
-![15|322x100](upload://7k6rFQodhmGvH9VZxIZqrZpVlof.gif) 
+![15|322x100](https://github.com/jsartisan/theme-switcher-magnus/blob/master/demo/2.gif?raw=true) 
 ## Explanation
 
 1. We are grabbing the current and setTheme function from ThemeContext by using useContext hook.
